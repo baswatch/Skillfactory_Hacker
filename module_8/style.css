@@ -1,0 +1,108 @@
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+
+html, body {
+    height: 100%;
+    }
+.page {
+    min-height: 100%;
+    margin-bottom: -40px;
+}
+.page-buffer {
+    height: 40px;
+}
+.footer{
+    padding: 15px;
+    font-size: 10pt;
+    text-align: center;
+    border-width: 1px 0px 0px;
+    border-style: solid;
+    border-color: brown;
+    clear: both;
+    color: grey;
+}
+
+body {
+    font-family: "trebuchet ms", trebuchet, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 1;
+	margin: auto;
+    max-width: 800px;
+    background: rgba(158, 196, 232, 0.60);
+}
+
+h1, h2, h3, h4, h5 {
+    color: #464646;
+}
+p {
+    color: #262626;
+}
+
+#header h2 {
+    font-size: 12pt;
+    color: brown;
+   }
+
+#header {
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: brown;
+    letter-spacing: 40px;
+    }
+#header img{
+    float:left;
+}
+
+#menu {
+	height: 40px;
+	margin: 10px;
+	}
+
+#menu ul li {
+    float: left;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: brown;
+    margin-right: 10px;
+    padding: 0px 11px 10px 22px;
+    font-size: 12pt;
+    color: rgb(96, 96, 96);
+    }
+
+#menu ul li a {
+    color: rgba(165, 42, 42, 0.8);
+    text-decoration: none;
+    }
+#menu ul li a:hover {
+    color: rgba(165, 42, 42, 1);
+    }
+
+#main {
+    padding: 0px 0px;
+    text-align: justify;
+    clear: both;
+	margin-top: 0px;
+}
+
+#main img {
+    float: left;
+    border: 1px solid brown;
+    margin-right: 15px;
+    margin-bottom: 5px;
+
+}
+
+
+
+
+
+
+
+
+
